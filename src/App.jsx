@@ -34,6 +34,7 @@ function App() {
           <Form className="flex flex-col gap-2 p-10 rounded-lg m-10 bg-pink-50 max-w-md mx-auto w-full">
             <TextField name="firstName" placeholder="Enter firstName" />
             <TextField name="lastName" placeholder="Enter lastName" />
+            <TextField name="age" placeholder="Enter age" />
             <TextField name="email" type="text" placeholder="Enter email" />
 
             <button
