@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+  .input-field{
+    @apply px-4 rounded-md py-2 focus:ring-emerald-500 outline-none focus:ring-1 border w-full border-gray-600;
+  }
+}
